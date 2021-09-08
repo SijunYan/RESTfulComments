@@ -1,0 +1,51 @@
+{
+    "dog": {
+        "name": "Dog",
+        "subscribers": 23956,
+        "discription": "This article is about the domestic dog",
+        "posts": [
+            {
+                "title": "led dogs to be uniquely adapted to human behavio",
+                "author": "Kate",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/6/62/Big_and_little_dog.jpg"
+            },
+            {
+                "title": "In 1999, a study of mitochondrial DNA (mtDNA) indicated that the domestic dog may have originated from the grey wolf, with the dingo",
+                "author": "Evolution of the wolf",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Dog_coat_variation.png/220px-Dog_coat_variation.png"
+            }
+        ]
+    },
+    "cat": {
+        "name": "Cat",
+        "subscribers": 1232,
+        "discription": "The cat (Felis catus) is a domestic species of small carnivorous mammal",
+        "posts": [
+            {
+                "title": "The cat is similar in anatomy to the other felid species: it has a strong flexible body",
+                "author": "Janifer",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Scheme_cat_anatomy.svg/1920px-Scheme_cat_anatomy.svg.png"
+            },
+            {
+                "title": "The cat skull is unusual among mammals in having very large eye sockets and a powerful specialized jaw",
+                "author": "Cat senses",
+                "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/TapetumLucidum.JPG/1280px-TapetumLucidum.JPG"
+            }
+        ]
+    },
+    "chicken": {
+        "name": "Chicken",
+        "subscribers": 9999,
+        "discription": "The chiken (Felis catus) is a domestic species of small carnivorous mammal",
+        "posts": [
+            {
+                "title": "The chiken is similar in anatomy to the other felid species: it has a strong flexible body",
+                "author": "Jfer"
+            },
+            {
+                "title": "The chicken skull is unusual among mammals in having very large eye sockets and a powerful specialized jaw",
+                "author": "hem"
+            }
+        ]
+    }
+}

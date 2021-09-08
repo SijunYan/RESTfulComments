@@ -1,0 +1,42 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= name %>
+    </title>
+</head>
+
+<body>
+    <h1>This is the page for <%= name %>
+    </h1>
+    <h3>
+        <%= discription %>
+    </h3>
+    <p>Subscriber: <%= subscribers %>
+    </p>
+
+    <hr>
+    <% for (let post of posts){ %>
+        <P>
+            <%= post.title %> -- <b>
+                    <%= post.author %>
+                </b>
+        </P>
+        <img src="<%= post.iamge %> " alt="name" srcset="" style="display: block;">
+        <a href="/animal/<%= name %>/<%= post.author %>/edit">edit</a>
+        <form action=" /animal/<%=name %>/<%= post.author %>?_method=delete" method='post'
+            onsubmit="window.location.reload();">
+            <button type="submit" style="color:red">delete</button>
+        </form>
+
+        <hr>
+        <% } %>
+
+            <a href="/animal/<%= name %>/New">Add A New Post</a>
+            <a href="/animal">Animal Home</a>
+</body>
+
+</html>

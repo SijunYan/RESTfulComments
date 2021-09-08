@@ -1,0 +1,32 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New post for <%= pet %>
+    </title>
+</head>
+
+<body>
+    <h3>New post for <%= pet %>
+    </h3>
+    <form action="/animal/<%= pet %>" method="POST">
+        <section>
+            <label for="comment">
+                comment:
+            </label>
+            <textarea name="title" id="comment" cols="30" rows="10" placeholder="type your post"></textarea>
+        </section>
+        <section style="display:inline-block">
+            <label for="author">
+                author:
+            </label>
+            <input name="author" type="text" id="author" placeholder="type your usename">
+        </section>
+
+        <button>submit</button>
+    </form>
+</body>
+
+</html>
